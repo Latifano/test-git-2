@@ -31,6 +31,6 @@ class Kalkulator:
 
 
 inputAngka = Kalkulator(int(input("\nMasukkan pilihan(1/2/3/4) : ")), int(
-    input('Masukan Angka Ke-1 : ')), int(input('Masukan Angka Ke-2 : ')))
+    input('Masukan Angka Ke-1 : ')), int(input('Masukan Bil Ke-2 : ')))
 
 print(inputAngka.info())
