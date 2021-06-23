@@ -27,7 +27,7 @@ class Kalkulator:
         elif self.pilihan == 4:
             return f'\n{self.input1} / {self.input2} = {self.hasilbagi}\n'
         else:
-            return f'\nPilihan Operasi Hanya 1 - 4 !\n'
+            return f'\nPilihan Operasi cuma 1 - 4 !\n'
 
 
 inputAngka = Kalkulator(int(input("\nMasukkan pilihan(1/2/3/4) : ")), int(
